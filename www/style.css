@@ -1,0 +1,85 @@
+html, body {
+    height:100%;
+}
+
+html {
+	display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+  	background-repeat: no-repeat;
+}
+
+.links{
+	position:relative;
+	width:700px;
+	height:50px;
+}
+
+#test{
+	margin-left: auto;
+  	margin-right: auto;
+	position:relative;
+	border: 5px;
+	border-style: solid;
+	border-color:black;
+	border-radius:20px;
+	width:700px;
+	height:300px;
+}
+
+#title{
+	text-align:center;
+}
+
+#mainLogo{
+	display: block;
+    margin: 0 auto;
+/*	position:absolute;
+	margin-top:-160px;*/
+ /*  width: 500px;
+   height: 500px;*/
+}
+
+#save{
+	position:absolute;
+	right:1%;
+	text-decoration: none;
+	color: black;
+}
+
+#save:hover {
+	cursor:pointer;
+	color:#999;
+}
+
+#clear {
+	position:absolute;
+	left:1%;
+	text-decoration: none;
+	color: black;
+}
+
+#clear:hover {
+	cursor:pointer;
+	color:#999;
+}
+
+
+#file {
+	display:none;
+}
+.column-left {
+	display: inline; 
+	float: left;
+}
+.column-right {
+	display: inline; 
+	float: right;
+}
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>What's Your Signature?</title>
+
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+			
+		<script src="http://code.jquery.com/jquery-1.5.2.min.js" type="text/javascript" ></script>
+		<script src="jquery.jqscribble.js" type="text/javascript"></script>
+		<script src="jqscribble.extrabrushes.js" type="text/javascript"></script>
+		<link rel="stylesheet" media="all" href="style.css" /> 
+		<script src="scripts.js"></script>
+		<!-- <link rel="stylesheet" media="all" href="./scribble/style.css" /> -->
+		<!-- <script type="text/javascript" src="/dist/autograph.bundle.js"></script> -->
+
+	</head>
+	<body>
+		<!-- <div style="overflow: hidden; margin-bottom: 5px;"> -->
+	<!-- 		<div class="column-left links">
+				<strong>BRUSHES:</strong>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brush: BasicBrush});'>Basic</a>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brush: LineBrush});'>Line</a>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brush: CrossBrush});'>Cross</a>
+			</div> -->
+<!-- 			<div class="column-right links">
+				<strong>COLORS:</strong>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brushColor: "rgb(0,0,0)"});'>Black</a>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brushColor: "rgb(255,0,0)"});'>Red</a>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brushColor: "rgb(0,255,0)"});'>Green</a>
+				<a href="#" onclick='$("#test").data("jqScribble").update({brushColor: "rgb(0,0,255)"});'>Blue</a>
+			</div> -->
+		<!-- </div> -->
+		<!-- <h1 id='title'>What's Your Signaure?</h1> -->
+		<img src='https://i.imgur.com/QWOHBQL.png' id='mainLogo' ></img>
+		<canvas id="test"></canvas>
+
+		<div class="links" style="margin-top: 5px;">
+			<!-- <strong>OPTIONS:</strong> -->
+			<!-- <a href="#" onclick='addImage();'>Add Image</a> -->
+			<a id='clear' href="#" onclick='$("#test").data("jqScribble").clear();'>Clear</a>
+			<a id='save' href="#" onclick='save();'>Save</a>
+			<!-- <a href="#" onclick='save();'>Custom Save</a> -->
+		</div>
+
+
+	</body>
+</html>
